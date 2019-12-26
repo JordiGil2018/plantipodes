@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://dev.plantipodes.cat", "http://dev.plantipodes.cat", "{BB875411-B957-474D-BB17-159FF771A97B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/dev.plantipodes.cat"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\inetpub\wwwroot\plantipodes.cat\httpdocs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dev.plantipodes.cat\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dev.plantipodes.cat"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\inetpub\wwwroot\plantipodes.cat\httpdocs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dev.plantipodes.cat\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\inetpub\wwwroot\plantipodes.cat\httpdocs\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "httpdocs", "ftp://plantipodes.cat/httpdocs", "{A2C0C805-BD2B-4FAA-9A5C-4387BB7568C8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/httpdocs"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\AppData\Local\Temp\VWDWebCache\ftp_plantipodes.cat_httpdocs_epares\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\httpdocs\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/httpdocs"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\AppData\Local\Temp\VWDWebCache\ftp_plantipodes.cat_httpdocs_epares\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\httpdocs\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB875411-B957-474D-BB17-159FF771A97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB875411-B957-474D-BB17-159FF771A97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C0C805-BD2B-4FAA-9A5C-4387BB7568C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C0C805-BD2B-4FAA-9A5C-4387BB7568C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B2E7AE7-2FD6-48FF-B3A2-8E74AB5E4208}
+	EndGlobalSection
+EndGlobal
